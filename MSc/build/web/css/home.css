@@ -1,0 +1,479 @@
+body,html
+{
+    height: 100%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+input[type=text]
+{
+    background-color: rgba(0, 0, 0, 1);
+    border: 0px solid rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+    margin: 0 0 5px;
+    font-weight: bold;
+    height: 25px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+fieldset
+{
+    border-color: black;
+    border: 5px gray solid;
+}
+
+
+
+
+.invisible
+{
+    display: none;
+}
+
+.inline-block
+{
+    display: inline-block;
+}
+
+.alignCenter
+{
+    text-align: center;
+}
+.container
+{
+    background-color: #BC0000;
+    min-height: 1349px;
+}
+
+.topBar
+{
+    width: 100%;
+    height: 15px;
+    background-color: black;
+}
+
+body
+{
+    margin: 0;
+}
+
+.font_0
+{
+    font: normal normal bold 38px/1.2em enriqueta, serif;
+    color: rgb(184, 184, 184);
+}
+
+.headingFont
+{
+font-family: 'Enriqueta', serif;
+font-size: 38px;
+font-style: normal;
+font-variant: normal;
+font-weight: bold;
+letter-spacing: normal;
+
+}
+.containerWidth
+{
+    z-index: auto;
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.headingContainer
+{
+    visibility: visible;
+    left: -82px;
+    top: 41px;
+    width: 374px;
+    min-height: 160px;
+    position: absolute;
+    z-index: auto;
+    word-wrap: break-word;
+    
+}
+
+.headingContainer h1
+{
+    margin: 0px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+.headingContainer p
+{
+    margin: 0px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+.font_8
+{
+    font: normal normal normal 14px/1.2em 'open sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.menu
+{
+    visibility: visible;
+    width: 746px;
+    left: 224px;
+    top: 59px;
+    min-height: 20px;
+    position: absolute;
+    z-index: auto;
+    text-align: right;
+}
+
+.itemContainer
+{
+    text-align: right;
+     height: 20px; 
+     width: 746px; 
+    overflow: visible;
+     white-space: nowrap; 
+    display: inherit;
+}
+
+.menuButton
+{
+    visibility: visible;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 0s;
+    display: inline-block;
+    cursor: pointer;
+    font: normal normal bold 14px/1.2em 'open sans', sans-serif;
+}
+
+.gapper
+{
+        padding: 0px 5px;
+}
+
+.innerGapper
+{
+        padding: 0px 12px 0px 11px;
+}
+
+.menuButton:hover .menuButtonLabel {
+    color: rgb(0, 0, 0);
+    transition: color 0.4s ease 0s;
+}
+
+.menuButtonLabel
+{
+    display: inline-block;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    transition: color 0.4s ease 0s;
+}
+
+
+.grdLineContainer
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.grdLine
+{
+    visibility: visible;
+    left: 241px;
+    top: 113px;
+    min-width: 738px;
+    min-height: 5px;
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.498039);
+    height: 0px;
+    min-height: 0px;
+}
+
+.pagesContainer
+{
+    visibility: visible;
+    width: 980px;
+    min-height: 500px;
+    top: 223px;
+    position: absolute;
+    z-index: auto;
+    margin-left: 200px;
+}
+
+.blankScreenWidthBackground
+{
+    position: absolute;
+    width: 1349px;
+    height: 500px;
+    left: -185px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.centeredContent
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.sitePages
+{
+    visibility: visible;
+    width: 980px;
+    min-height: 710px;
+    position: absolute;
+}
+
+.page
+{
+    zoom: 1;
+    opacity: 1;
+    min-height: 500px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+}
+
+.projectGoal
+{
+    visibility: visible;
+    left: 317px;
+    width: 533px;
+    min-height: 180px;
+    position: absolute;
+    z-index: auto;
+    word-wrap: break-word;
+}
+
+.projectGoal h4
+{
+    margin: 0px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.font_4
+{
+    font: normal normal normal 30px/1.2em 'open sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.grdLineGoal
+{
+    visibility: visible;
+    left: 320px;
+    top: 200px;
+    min-width: 585px;
+    min-height: 5px;
+    position: absolute;
+}
+
+
+.photo
+{
+    visibility: visible;
+    left: 1px;
+    min-width: 240px;
+    min-height: 240px;
+    position: absolute;
+}
+
+
+.photo a
+{
+    cursor: default;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+.imageContainer
+{
+    visibility: visible;
+    width: 240px;
+    height: 240px;
+}
+
+.imageContainer img
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 240px;
+    height: 240px;
+}
+
+.definition
+{
+    border: 1px solid rgba(255, 255, 255, 0.498039);
+    display: inline-block;
+    width: 30%;
+    border-radius: 15px;
+    float: left;
+}
+
+
+.row
+{
+    margin-right: -15px;
+    margin-left: -15px;
+    top: 250px;
+}
+
+.tile-col
+{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.col-md-4
+{
+    position: relative;
+    float: left;
+}
+
+.gap
+{
+    width: 10%;
+    display: inline-block;
+}
+
+.contact
+{   
+    visibility: visible;
+    top: 85px;
+    width: 960px;
+    min-height: 63px;
+    position: absolute;
+}
+
+.font_30
+{
+    font-size: 30px;
+}
+
+.evaluationButton
+{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.evaluation
+{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    left: 15%;
+    position: absolute;
+}
+
+.floatLeft
+{
+    float: left;
+}
+
+.floatRight
+{
+    float: right;
+}
+
+.setFont
+{
+    font-family: 'Enriqueta', serif;
+    font-weight: bold;
+}
+
+.redAlert
+{
+    color: red;
+    font-size: 14px;
+}
+
+.error
+{
+    border: 5px solid #FF0000 !important;
+}
+
+.resultFont
+{
+    font-size: 20px;
+}
+
+.downloadLink
+{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#tblStats
+{
+    width: 103%;
+    color: #ffffff;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    border-collapse:collapse;
+    border:1px solid black;
+}
+
+#tblStats td
+{
+    border: 1px solid black;
+}
+
+.dialog-background{
+    background: none repeat scroll 0 0 rgba(255, 0, 25, 0.5);
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.dialog-loading-wrapper {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    position: fixed;
+    top: 50%;
+    width: 100px;
+    z-index: 9999999;
+}
+.dialog-loading-icon {
+    background-color: #FFFFFF !important;
+    border-radius: 13px;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    width: 100px;
+}
